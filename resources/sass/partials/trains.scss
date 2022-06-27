@@ -1,0 +1,12 @@
+.k_wrap{
+  display: flex;
+  flex-wrap: wrap;
+  .k_card{
+    width:23%;
+    background-color: rgb(253, 239, 239);
+    .status{
+      color: red;
+      font-weight: 600;
+    }
+  }
+}

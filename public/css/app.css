@@ -1,0 +1,66 @@
+header {
+  position: relative;
+  height: 100px;
+  width: 100%;
+  padding: 0 40px;
+  border-bottom: 1px solid black;
+  overflow: hidden;
+}
+
+header img {
+  width: 150px;
+  position: absolute;
+  z-index: 999;
+  top: -26px;
+}
+
+header ul {
+  display: flex;
+  justify-content: end;
+  line-height: 100px;
+  list-style: none;
+  -webkit-margin-after: 0;
+          margin-block-end: 0;
+  -webkit-margin-before: 0;
+          margin-block-start: 0;
+  -webkit-padding-start: 0;
+          padding-inline-start: 0;
+}
+
+header ul li {
+  font-size: 22px;
+  text-transform: uppercase;
+}
+
+header ul a {
+  color: rgb(28, 27, 27);
+  text-decoration: none;
+  padding: 35px 10px;
+}
+
+header ul a:hover {
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+}
+
+header ul a.active {
+  background-color: rgb(255, 207, 207);
+  color: black;
+}
+
+.k_wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.k_wrap .k_card {
+  width: 23%;
+  background-color: rgb(253, 239, 239);
+}
+
+.k_wrap .k_card .status {
+  color: red;
+  font-weight: 600;
+}
+
